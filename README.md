@@ -2,11 +2,11 @@
 
 
 1) ltrace ./binary  <br>
-Executes the binary and show basic syscalls<br><br>
+Executes the binary and show libs trace<br><br>
 
 
 2) strace -f ./binary<br>
-Executes the binary and shows some more advanced info about it<br><br>
+Executes the binary and shows syscall trace<br><br>
 
 
 3) ldd ./binary<br>
