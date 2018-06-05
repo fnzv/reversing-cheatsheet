@@ -1,37 +1,37 @@
 # Reverse engineering cheatsheet
 
 
-1) ltrace ./binary 
-Executes the binary and show basic syscalls
+1) ltrace ./binary  <br>
+Executes the binary and show basic syscalls<br><br>
 
 
-2) strace -f ./binary
-Executes the binary and shows some more advanced info about it
+2) strace -f ./binary<br>
+Executes the binary and shows some more advanced info about it<br><br>
 
 
-3) ldd ./binary
-Shows libraries 
+3) ldd ./binary<br>
+Shows libraries <br><br>
 
 
-4) file binary
-Info of the binary 
+4) file binary<br>
+Info of the binary <br><br>
 
 
-5) objdump -d binary
-Disassembly of the binary, there are some interesting args such as: -s --section .comment,  -T .. many more
+5) objdump -d binary<br>
+Disassembly of the binary, there are some interesting args such as: -s --section .comment,  -T .. many more<br><br>
 
 
-6) gdb / pwngdb
-GDB disassembler
+6) gdb / pwngdb<br>
+GDB disassembler<br><br>
 
 
-7) readelf -x .rodata binary
-Static strings
+7) readelf -x .rodata binary<br>
+Static strings<br><br>
 
 
-8) strings binary
-Display strings 
+8) strings binary<br>
+Display strings <br><br>
 
 
-9) readelf -s binary
-Display simbols
+9) readelf -s binary<br>
+Display simbols<br><br>
