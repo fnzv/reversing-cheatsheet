@@ -35,3 +35,9 @@ Display strings <br><br>
 
 9) readelf -s binary<br>
 Display simbols<br><br>
+
+10) Decompile python compiled binaries
+
+Uncompyle6 works for Python 3 and 2.7 
+
+Uncompyle2 supports Python 2.7 only.
